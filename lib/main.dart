@@ -1,20 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:provider/provider.dart';
-import 'package:sahil_assignment/rahul_sir_task/provider/user_provider.dart';
 import 'package:sahil_assignment/rahul_sir_task/screens/login_screen.dart';
 import 'package:sahil_assignment/rahul_sir_task/screens/profile_screen.dart';
-import 'package:sahil_assignment/rahul_sir_task/screens/register_screen.dart';
 import 'package:sahil_assignment/rahul_sir_task/screens/splash_screen.dart';
-import 'package:sahil_assignment/screens/image_picker/image_picker_screen.dart';
-import 'package:sahil_assignment/screens/to_do_screen/to_do_screen.dart';
-import 'package:sahil_assignment/trade/try_screen.dart';
-import 'package:sahil_assignment/trade/trading_screen.dart';
-import 'package:sahil_assignment/trade/widget/splash.dart';
-import 'package:sahil_assignment/utils/image_picker.dart';
-import 'bloc/counter_bloc/counter_bloc.dart';
-import 'bloc/image_picker/image_picker_bloc.dart';
-import 'bloc/switch_bloc/switch_bloc.dart';
 import 'dart:io';
 
 class MyHttpOverrides extends HttpOverrides {
